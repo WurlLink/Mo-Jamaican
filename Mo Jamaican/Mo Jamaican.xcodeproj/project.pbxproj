@@ -15,6 +15,9 @@
 		782110E720F28A6C00097273 /* CatergoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110E620F28A6C00097273 /* CatergoryCell.swift */; };
 		782110E920F2902800097273 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110E820F2902800097273 /* Category.swift */; };
 		782110EC20F2936300097273 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110EB20F2936300097273 /* DataServices.swift */; };
+		782110EE20F2FD0B00097273 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110ED20F2FD0B00097273 /* ProductCell.swift */; };
+		782110F020F3030100097273 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110EF20F3030100097273 /* Product.swift */; };
+		782110F220F30C2400097273 /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782110F120F30C2400097273 /* Recipes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		782110E620F28A6C00097273 /* CatergoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatergoryCell.swift; sourceTree = "<group>"; };
 		782110E820F2902800097273 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		782110EB20F2936300097273 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		782110ED20F2FD0B00097273 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		782110EF20F3030100097273 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		782110F120F30C2400097273 /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				782110E820F2902800097273 /* Category.swift */,
+				782110EF20F3030100097273 /* Product.swift */,
+				782110F120F30C2400097273 /* Recipes.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				782110E620F28A6C00097273 /* CatergoryCell.swift */,
+				782110ED20F2FD0B00097273 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,8 +188,11 @@
 				782110EC20F2936300097273 /* DataServices.swift in Sources */,
 				782110D420F24B7000097273 /* CategoriesVC.swift in Sources */,
 				782110D220F24B7000097273 /* AppDelegate.swift in Sources */,
+				782110F220F30C2400097273 /* Recipes.swift in Sources */,
+				782110EE20F2FD0B00097273 /* ProductCell.swift in Sources */,
 				782110E720F28A6C00097273 /* CatergoryCell.swift in Sources */,
 				782110E920F2902800097273 /* Category.swift in Sources */,
+				782110F020F3030100097273 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
