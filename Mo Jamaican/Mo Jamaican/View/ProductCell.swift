@@ -16,4 +16,11 @@ class ProductCell: UICollectionViewCell {
     @IBOutlet weak var productPrice: UILabel!
     @IBOutlet weak var addToCartButton: UIButton!
     
+    func updateViews (product: Product) {
+        productImage.image = UIImage(named: product.imageName)
+        productBrand.text = product.brand
+        productTitle.text = product.title
+        productPrice.text = product.price
+    }
+    
 }

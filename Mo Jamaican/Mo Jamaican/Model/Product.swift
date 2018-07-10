@@ -14,13 +14,14 @@ struct Product {
     private(set) public var imageName: String
     private(set) public var price: String
     private(set) public var brand: String
-//    private(set) public var addToCartButton: String
+//    private(set) public var addToCartButton: ACTION
     
     init(title: String, imageName: String, price: String, brand: String) {
         self.title = title
         self.imageName = imageName
         self.price = price
         self.brand = brand
+//        self.addToCartButton = addToCartButton
     }
     
     
